@@ -33,6 +33,11 @@ services:
       REDIS_PASSWORD: "${REDIS_PASSWORD}"
       HEDWI_MEET_KEY: "${MEET_KEY}"
       HEDWI_MEET_SECRET: "${MEET_SECRET}"
+      HEDWI_MEET_AUTH_TYPE: "${MEET_AUTH_TYPE}"
+      HEDWI_LDAP_ENABLED: "${MEET_LDAP_ENABLED}"
+      HEDWI_LDAP_ADDR: "${MEET_LDAP_ADDR}" # ldap://127.0.0.1:42389
+      HEDWI_LDAP_BASE_DN: "${MEET_LDAP_BASE_DN}" # dc=hedwi,dc=com
+
     depends_on:
       - redis
 

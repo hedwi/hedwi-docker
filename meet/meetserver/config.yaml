@@ -3,6 +3,11 @@ port: 7880
 domain: $HEDWI_SELF_DOMAIN
 cert_dir: /tmp/hedwi_certs
 log_level: info
+meet_auth_type: $MEET_AUTH_TYPE  # ldap
+ldap:
+  enabled: $LDAP_ENABLED
+  addr:    $LDAP_ADDR   # ldap://127.0.0.1:42389
+  base_dn: $LDAP_BASE_DN # dc=hedwi,dc=com
 rtc:
   tcp_port: 7881
   port_range_start: 50000
