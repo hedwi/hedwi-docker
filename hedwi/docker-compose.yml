@@ -339,8 +339,8 @@ services:
     restart: always             #跟随docker的启动而启动
     volumes:                    #挂载卷命令
       - ./nginx/conf/nginx.conf:/etc/nginx/nginx.conf
-      - ./nginx/logs/access.log:/var/log/nginx_access.log
-      - ./nginx/logs/error.log:/var/log/nginx_error.log
+      - ./nginx/logs/access.log:/var/log/nginx/access.log
+      - ./nginx/logs/error.log:/var/log/nginx/error.log
       #- ./nginx/logs/inbox.error.log:/var/log/nginx/inbox.error.log
       #- ./nginx/logs/access.log:/var/log/nginx/access.log
       #- ./nginx/logs/error.log:/var/log/nginx/error.log
@@ -359,6 +359,5 @@ volumes:
     minio:
     office-api:
     meet-server:
-    hub:
     smtp:
     imap:
