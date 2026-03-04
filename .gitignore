@@ -8,3 +8,6 @@ inbox/certs/cert.crt
 inbox/certs/cert.key
 meetserver/certs/cert.crt
 meetserver/certs/cert.key
+logs/
+certs/
+data/
