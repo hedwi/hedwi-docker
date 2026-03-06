@@ -328,6 +328,12 @@ services:
     environment:
       HEDWI_IMAP_ADDR: "${IMAP_ADDR}"
       HEDWI_IMAP_TLS_ADDR: "${IMAP_TLS_ADDR}"
+      HEDWI_SQLDB: "postgresql://root@${CRDB_ADDR}/${DB_NAME}"
+      HEDWI_SESSION_HEDIS_HOST: "${REDIS_ADDR}"
+      HEDWI_SESSION_HEDIS_PASSWORD: ""
+      HEDWI_SESSION_HEDIS_DB: "1"
+      HEDWI_SESSION_HEDIS_POOLSIZE: "10"
+      HEDWI_SEARCH_SERVER: "${SEARCH_ADDR}"
     depends_on:
       - search
       - crdb
