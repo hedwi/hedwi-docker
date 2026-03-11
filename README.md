@@ -19,8 +19,17 @@ zh-hans: [视频会议文档中文版](https://hedwi.com/document/meet/zh-hans/)
   #  国内用户
   git clone https://gitee.com/Hedwi/hedwi-docker.git
 
-  cd hedwi-docker/hedwi && make
+  cd hedwi-docker/hedwi
+
+
+  #
+  cp env.example .env
+
+  # 修改 .env
+
+  make
   
 ```
 打开首页 [http://127.0.0.1:40008](http://127.0.0.1:40008)
+
 
