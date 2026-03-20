@@ -1,4 +1,52 @@
-# hedwi-docker
+# Hedwi has been upgrade to BindOffice 
+# 海未已经更名为BindOffice
+
+
+# hedwi-docker upgrade to  [https://github.com/bindoffice/bind-docker](https://github.com/bindoffice/bind-docker)
+# 仓库地址迁移到   [https://github.com/bindoffice/bind-docker](https://github.com/bindoffice/bind-docker) 
+
+
+# Please change to use the new repo.Sorry for the inconvenience.
+# 请使用新的仓库，抱歉带来不便。
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
 
 # 文档 Documentation
 
